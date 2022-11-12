@@ -28,7 +28,7 @@ const Services = () => {
     return (
         <div className='text-center mt-32'>
             <div>
-                <h3 className='text-primary text-[20px] font-bold'>Our services</h3>
+                <h3 className='text-transparent bg-clip-text bg-gradient-to-r to-primary from-secondary text-[20px] font-bold'>Our services</h3>
                 <h2 className='text-[36px]'>Services we provide</h2>
             </div>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-12 gap-8'>

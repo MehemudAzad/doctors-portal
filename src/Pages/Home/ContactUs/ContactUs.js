@@ -7,7 +7,7 @@ const ContactUs = () => {
         style={{background: `url(${appointment})`}}
         >
             <div className='text-center text-white'>
-                <h3 className='text-primary text-[20px]'>Contact Us</h3>
+                <h3 className='text-primary text-[20px] font-bold'>Contact Us</h3>
                 <h2 className='text-[36px]'>Stay connected with us</h2>
             </div>
             <form className='w-2/5 mx-auto text-center'>
