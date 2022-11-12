@@ -6,6 +6,8 @@ const Navbar = () => {
                             <li><Link to='/'>Home</Link></li>
                             <li><Link to='apointment'>Apointment</Link></li>
                             <li><Link to='about'>About</Link></li>
+                            <li><Link to='about'>Reviews</Link></li>
+                            <li><Link to='about'>Contact Us</Link></li>
                             <li><Link to='login'>Login</Link></li>
                       </React.Fragment>
     return (
@@ -25,9 +27,6 @@ const Navbar = () => {
           <ul className="menu menu-horizontal p-0">
               {menuItems}
           </ul>
-        </div>
-        <div className="navbar-end">
-          <a className="btn">Get started</a>
         </div>
       </div>
     );
