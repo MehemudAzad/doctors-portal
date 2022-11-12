@@ -9,7 +9,7 @@ const Banner = () => {
                 backgroundSize: 'cover'
     }}
         >
-            <div className="hero lg:py-32 py-2 md:py-12 " >
+            <div className="hero lg:py-48 py-2 md:py-12 " >
             <div className="hero-content flex-col lg:flex-row-reverse gap-12">
                 <img src={chair2} className="lg:w-1/2 rounded-lg shadow-2xl" />
                 <div>
