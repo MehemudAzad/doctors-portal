@@ -1,4 +1,3 @@
-import { serialize } from 'bson';
 import React, { useState } from 'react';
 import AppointmentBanner from './AppointmentBanner';
 import AvailableAppointments from './AvailableAppointments';
@@ -8,11 +7,11 @@ const Appointment = () => {
     return (
             <div>
                 <AppointmentBanner
-                selectedDate={selectedDate}
-                setSelectedDate={setSelectedDate}
+                    selectedDate={selectedDate}
+                    setSelectedDate={setSelectedDate}
                 ></AppointmentBanner>
                 <AvailableAppointments
-                selectedDate={selectedDate}
+                    selectedDate={selectedDate}
                 ></AvailableAppointments>
             </div>
     );
